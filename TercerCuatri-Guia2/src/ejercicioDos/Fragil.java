@@ -2,5 +2,5 @@ package ejercicioDos;
 
 public interface Fragil {
 
-    public void esFragil();
+    public boolean esFragil();
 }

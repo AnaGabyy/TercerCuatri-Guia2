@@ -3,13 +3,13 @@ package ejercicioDos;
 public abstract class Paquete {
 
     private Integer idPaquete;
-    private Integer ancho;
-    private Integer alto;
+    private Double peso;
+    private String destino;
 
-    public Paquete(Integer idPaquete, Integer ancho, Integer alto) {
+    public Paquete(Integer idPaquete, Double peso, String destino) {
         this.idPaquete = idPaquete;
-        this.ancho = ancho;
-        this.alto = alto;
+        this.peso = peso;
+        this.destino = destino;
     }
 
     public Integer getIdPaquete() {
@@ -20,19 +20,19 @@ public abstract class Paquete {
         this.idPaquete = idPaquete;
     }
 
-    public Integer getAncho() {
-        return ancho;
+    public Double getPeso() {
+        return peso;
     }
 
-    public void setAncho(Integer ancho) {
-        this.ancho = ancho;
+    public void setPeso(Double peso) {
+        this.peso = peso;
     }
 
-    public Integer getAlto() {
-        return alto;
+    public String getDestino() {
+        return destino;
     }
 
-    public void setAlto(Integer alto) {
-        this.alto = alto;
+    public void setDestino(String destino) {
+        this.destino = destino;
     }
 }

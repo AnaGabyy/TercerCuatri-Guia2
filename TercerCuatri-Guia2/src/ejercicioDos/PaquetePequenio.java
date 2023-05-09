@@ -1,8 +1,13 @@
 package ejercicioDos;
 
-public class PaquetePequenio extends Paquete{
+public class PaquetePequenio extends Paquete implements Transportar{
 
-    public PaquetePequenio(Integer idPaquete, Integer ancho, Integer alto) {
-        super(idPaquete, ancho, alto);
+    public PaquetePequenio(Integer idPaquete, Double peso, String destino) {
+        super(idPaquete, peso, destino);
+    }
+
+    @Override
+    public boolean listoParaTransportar() {
+        return false;
     }
 }

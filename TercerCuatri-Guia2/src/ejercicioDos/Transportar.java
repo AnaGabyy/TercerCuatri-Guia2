@@ -2,5 +2,5 @@ package ejercicioDos;
 
 public interface Transportar {
 
-    public void transportar();
+    public boolean listoParaTransportar();
 }

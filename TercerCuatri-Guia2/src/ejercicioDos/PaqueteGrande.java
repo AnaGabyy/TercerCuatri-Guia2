@@ -1,8 +1,13 @@
 package ejercicioDos;
 
-public class PaqueteGrande extends Paquete{
+public class PaqueteGrande extends Paquete implements RadioActivo{
 
-    public PaqueteGrande(Integer idPaquete, Integer ancho, Integer alto) {
-        super(idPaquete, ancho, alto);
+    public PaqueteGrande(Integer idPaquete, Double peso, String destino) {
+        super(idPaquete, peso, destino);
+    }
+
+    @Override
+    public boolean esRadioActivo() {
+        return false;
     }
 }

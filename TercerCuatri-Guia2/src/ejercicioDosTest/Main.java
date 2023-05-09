@@ -8,7 +8,7 @@ public class Main {
         cada tipo de paquete, se definen interfaces como Package, Transportar, Fragil, RadioActivo, etc. Además, se
         desea que el sistema sea implementado utilizando el patrón singleton para garantizar que solo haya una
         instancia del sistema en ejecución. Finalmente, se requiere que los paquetes sean almacenados en una colección
-        de tipo ArrayList y que se utilice el polimorfismo para manejar los diferentes tipos de paquetes.*/
+        de tipo ArrayList y que se use el polimorfismo para manejar los diferentes tipos de paquetes.*/
 
 
 

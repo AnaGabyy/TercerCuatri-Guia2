@@ -1,4 +1,4 @@
-package ejercicioDos;
+package dos;
 
 public abstract class Paquete {
 

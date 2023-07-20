@@ -1,4 +1,4 @@
-package ejercicioDos;
+package dos;
 
 public class PaquetePequenio extends Paquete implements Transportar{
 

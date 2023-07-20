@@ -1,4 +1,4 @@
-package ejercicioDos;
+package dos;
 
 public interface RadioActivo {
 

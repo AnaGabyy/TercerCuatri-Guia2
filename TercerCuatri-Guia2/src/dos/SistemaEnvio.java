@@ -1,4 +1,4 @@
-package ejercicioDos;
+package dos;
 
 import java.util.ArrayList;
 

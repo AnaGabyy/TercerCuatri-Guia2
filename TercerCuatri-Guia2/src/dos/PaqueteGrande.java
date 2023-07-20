@@ -1,4 +1,4 @@
-package ejercicioDos;
+package dos;
 
 public class PaqueteGrande extends Paquete implements RadioActivo{
 

@@ -1,9 +1,7 @@
-package ejercicioDosTest;
-
-import ejercicioDos.*;
+package dos.dosTest;
+import dos.*;
 
 public class Main {
-
     public static void main(String[] args) {
         /*Se desea implementar un sistema de gestión de envíos de paquetes. Los paquetes pueden ser de diferentes
         tipos, como por ejemplo, paquetes pequeños, paquetes medianos, paquetes grandes, entre otros. Para representar

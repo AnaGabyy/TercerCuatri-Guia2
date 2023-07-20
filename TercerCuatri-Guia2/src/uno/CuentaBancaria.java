@@ -1,4 +1,4 @@
-package ejercicioUno;
+package uno;
 
 public interface CuentaBancaria {
 

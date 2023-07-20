@@ -1,4 +1,4 @@
-package ejercicioDos;
+package dos;
 
 public class PaqueteMediano extends Paquete implements  Fragil{
 

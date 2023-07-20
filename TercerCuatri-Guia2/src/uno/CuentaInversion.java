@@ -1,4 +1,4 @@
-package ejercicioUno;
+package uno;
 
 public class CuentaInversion extends Cuenta{
 
